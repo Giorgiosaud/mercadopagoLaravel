@@ -1,33 +1,15 @@
 {
-  "name": "zonapro/mercadopago",
-  "type": "Tipo De Pago",
-  "description": "Mercadopago",
-  "keywords": ["tipo","de","pago","mercadopago"],
-  "homepage": "",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Jorge Saud",
-      "email": "jorgelsaud@gmail.com",
-      "homepage": "http://zonapro.net",
-      "role": "Developer"
-    }
-  ],
-  "require": {
-    "php": ">=5.4.0",
-    "illuminate/http": "~5.0",
-    "illuminate/session": "~5.0",
-    "illuminate/support": "~5.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "Zonapro\\Mercadopago\\":"src/"
-    }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "5.0-dev"
-    }
-  },
-  "minimum-stability": "dev"
+    "name": "jorgelsaud/mercado-pago",
+    "description": "Metodo de Pago Mercadopago Para Laravel",
+    "require": {
+        "laravel/framework": "~5.1@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jorge Saud",
+            "email": "jorgelsaud@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
 }
