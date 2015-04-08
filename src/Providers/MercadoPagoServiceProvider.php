@@ -1,4 +1,4 @@
-<?php namespace Zonapro\MercadoPago\src\Providers;
+<?php namespace jorgelsaud\MercadoPago\src\Providers;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;

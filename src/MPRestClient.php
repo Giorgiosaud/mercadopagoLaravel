@@ -4,7 +4,7 @@
  * Date: 5/3/15
  * Time: 18:49
  */
-namespace Zonapro\Mercadopago\src;
+namespace jorgelsaud\Mercadopago\src;
 
 
 /**
