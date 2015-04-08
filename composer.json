@@ -2,7 +2,7 @@
     "name": "jorgelsaud/mercado-pago",
     "description": "Metodo de Pago Mercadopago Para Laravel",
     "require": {
-        "laravel/framework": "~5.1@dev"
+        "laravel/framework": "~5.0"
     },
     "license": "MIT",
     "authors": [
