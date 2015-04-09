@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
-use Zonapro\Mercadopago\src\Mercadopago;
+use jorgelsaud\Mercadopago\Mercadopago;
 
 class MercadoPagoServiceProvider extends ServiceProvider {
 
