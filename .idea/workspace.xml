@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12611d91-87c8-41f2-88ca-9b0977b7f26b" name="Default" comment="" />
+    <list default="true" id="12611d91-87c8-41f2-88ca-9b0977b7f26b" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Providers/MercadoPagoServiceProvider.php" afterPath="$PROJECT_DIR$/src/MercadoPagoServiceProvider.php" />
+    </list>
     <ignored path="mercadopagoLaravel.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -24,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MP.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MP.php">
+      <file leaf-file-name="MercadoPagoServiceProvider.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MercadoPagoServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08278581" vertical-offset="0" max-vertical-offset="7413">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="827">
+              <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -48,6 +50,7 @@
         <option value="$PROJECT_DIR$/src/Facades/Mercadopago.php" />
         <option value="$PROJECT_DIR$/src/Providers/MercadoPagoServiceProvider.php" />
         <option value="$PROJECT_DIR$/src/MP.php" />
+        <option value="$PROJECT_DIR$/src/MercadoPagoServiceProvider.php" />
       </list>
     </option>
   </component>
@@ -58,7 +61,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="807" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -130,24 +133,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Providers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mercadopagoLaravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mercadopagoLaravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Facades" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -161,6 +146,12 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -176,7 +167,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="807" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -192,13 +183,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -222,6 +213,74 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/MP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="7413">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding>
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" MercadoPago Integration Library ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Get Access Token for API use ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Get information for specific payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Get information for specific authorized payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Refund accredited payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Cancel pending payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Cancel preapproval payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Search payments according to filters, with pagination ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Create a checkout preference ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Update a checkout preference ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Get a checkout preference ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Create a preapproval payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Get a preapproval payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Update a preapproval payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Generic resource get ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Generic resource post ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Generic resource put ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Generic resource delete ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MPRestClient.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="1974">
@@ -237,19 +296,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Facades/Mercadopago.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="761">
-          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41392905" vertical-offset="0" max-vertical-offset="761">
           <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -261,26 +311,159 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="7413">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding>
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" MercadoPago Integration Library ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Get Access Token for API use ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Get information for specific payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Get information for specific authorized payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Refund accredited payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Cancel pending payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Cancel preapproval payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Search payments according to filters, with pagination ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Create a checkout preference ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Update a checkout preference ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Get a checkout preference ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Create a preapproval payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Get a preapproval payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Update a preapproval payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Generic resource get ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Generic resource post ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Generic resource put ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Generic resource delete ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Facades/Mercadopago.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="761">
+          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding>
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Mercadopago.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8904">
           <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
-          <folding />
+          <folding>
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" MercadoPago Integration Library ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Get Access Token for API use ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Get information for specific payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Get information for specific authorized payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Refund accredited payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Cancel pending payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Cancel preapproval payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Search payments according to filters, with pagination ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Create a checkout preference ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Update a checkout preference ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Get a checkout preference ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Create a preapproval payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Get a preapproval payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Update a preapproval payment ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Generic resource get ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Generic resource post ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Generic resource put ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder=" Generic resource delete ..." />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429281396000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Providers/MercadoPagoServiceProvider.php">
+    <entry file="file://$PROJECT_DIR$/src/MercadoPagoServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41392905" vertical-offset="0" max-vertical-offset="777">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MP.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08278581" vertical-offset="0" max-vertical-offset="7413">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="827">
+          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
           <folding />
         </state>
       </provider>
