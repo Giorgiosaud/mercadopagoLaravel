@@ -7,6 +7,7 @@
 namespace jorgelsaud\Mercadopago\controllers;
 
 
+use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
 class MercadopagoController extends Controller {
@@ -16,8 +17,9 @@ class MercadopagoController extends Controller {
         return view('MercadoPago::list');
     }
 
-    public function save()
+    public function save(Request $request)
     {
+        dd($request->all());
         return view('MercadoPago::list');
 
     }
