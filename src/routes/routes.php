@@ -1,4 +1,2 @@
 <?php
-Route::get('/mpPayment',function(){
-    return 'hola';
-});
+Route::get('/mpPayment','jorgelsaud\MercadoPago\Controllers\MercadopagoController@index');
