@@ -7,15 +7,17 @@
 namespace jorgelsaud\Mercadopago\controllers;
 
 
-
-
 use Illuminate\Routing\Controller;
 
-class MercadopagoController extends Controller{
-    public function index(){
+class MercadopagoController extends Controller {
+
+    public function index()
+    {
         return view('MercadoPago::list');
     }
-    public function save(){
+
+    public function save()
+    {
         return view('MercadoPago::list');
 
     }

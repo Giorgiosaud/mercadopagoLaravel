@@ -342,6 +342,9 @@ class MP {
             return implode("&", $elements);
         }
     }
+    static function obtenerAccessToken(){
+        return $this->get_access_token();
+    }
 
 }
 
