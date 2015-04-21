@@ -16,7 +16,8 @@ class MercadopagoController extends Controller{
         return view('MercadoPago::list');
     }
     public function save(){
-        return 'hl';
+        return view('MercadoPago::list');
+
     }
 
 
