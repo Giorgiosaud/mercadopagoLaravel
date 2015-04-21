@@ -23,6 +23,9 @@ class MercadopagoController extends Controller {
         return view('MercadoPago::list');
 
     }
+    public function success(Request $request){
+        dd($request->all());
+    }
 
 
 }
