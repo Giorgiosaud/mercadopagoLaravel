@@ -15,5 +15,9 @@ class MercadopagoController extends Controller{
     public function index(){
         return 'hl';
     }
+    public function save(){
+        return 'hl';
+    }
+
 
 }
