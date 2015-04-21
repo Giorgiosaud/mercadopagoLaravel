@@ -19,7 +19,7 @@ class MercadopagoController extends Controller {
 
     public function save(Request $request)
     {
-        dd($request->all());
+        //dd($request->all());
         return view('MercadoPago::list');
 
     }
