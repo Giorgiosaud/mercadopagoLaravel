@@ -23,7 +23,10 @@ class MercadoPagoServiceProvider extends ServiceProvider {
         {
             return new Mercadopago(config('mercadopago.CLIENT_ID'), config('mercadopago.CLIENT_SECRET'), config('mercadopago.MP_SANDBOXMODE'));
         });
-
+        //$routeConfig = [
+        //    'namespace' => 'jorgelsaud\MercadoPago\Controllers',
+        //    'prefix' => $this->app['config']->get('debugbar.route_prefix'),
+        //];
         include __DIR__.'/routes/routes.php';
 
     }

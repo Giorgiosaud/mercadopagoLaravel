@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12611d91-87c8-41f2-88ca-9b0977b7f26b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controllers/MercadopagosController.php" afterPath="$PROJECT_DIR$/src/Controllers/MercadopagosController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MercadoPagoServiceProvider.php" afterPath="$PROJECT_DIR$/src/MercadoPagoServiceProvider.php" />
     </list>
     <ignored path="mercadopagoLaravel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BaseController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Controllers/BaseController.php">
+      <file leaf-file-name="MercadoPagoServiceProvider.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MercadoPagoServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3555018" vertical-offset="0" max-vertical-offset="827">
-              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.5465538" vertical-offset="115" max-vertical-offset="1029">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -51,13 +50,13 @@
         <option value="$PROJECT_DIR$/src/Facades/Mercadopago.php" />
         <option value="$PROJECT_DIR$/src/Providers/MercadoPagoServiceProvider.php" />
         <option value="$PROJECT_DIR$/src/MP.php" />
-        <option value="$PROJECT_DIR$/src/MercadoPagoServiceProvider.php" />
         <option value="$PROJECT_DIR$/src/config/mercadopago.php" />
         <option value="$PROJECT_DIR$/src/controllers/mercadopago.php" />
         <option value="$PROJECT_DIR$/src/Controllers/MercadopagoController.php" />
         <option value="$PROJECT_DIR$/src/routes/routes.php" />
         <option value="$PROJECT_DIR$/src/Controllers/MercadopagosController.php" />
         <option value="$PROJECT_DIR$/src/Controllers/BaseController.php" />
+        <option value="$PROJECT_DIR$/src/MercadoPagoServiceProvider.php" />
       </list>
     </option>
   </component>
@@ -390,14 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MercadoPagoServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39419588" vertical-offset="115" max-vertical-offset="966">
-          <caret line="23" column="139" selection-start-line="23" selection-start-column="125" selection-end-line="23" selection-end-column="139" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/config/mercadopago.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15235792" vertical-offset="0" max-vertical-offset="827">
@@ -437,8 +428,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/BaseController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3555018" vertical-offset="0" max-vertical-offset="827">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.025392987" vertical-offset="0" max-vertical-offset="827">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <marker date="1429598819000" expanded="false" signature="-1:-1" placeholder=" Created by jorgelsaud. ..." />
+            <marker date="1429598819000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1429598819000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429598819000" expanded="true" signature="-1:-1" placeholder=" @var Mercadopago ..." />
+            <marker date="1429598819000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MercadoPagoServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5465538" vertical-offset="115" max-vertical-offset="1029">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding />
         </state>
       </provider>
