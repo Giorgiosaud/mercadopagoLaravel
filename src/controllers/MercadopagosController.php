@@ -1,8 +1,8 @@
 <?php namespace jorgelsaud\MercadoPago\Controllers;
 
-use Illuminate\Routing\Controller;
 
-class MercadopagosController extends Controller {
+
+class MercadopagosController extends BaseController {
 
     public function index()
     {
