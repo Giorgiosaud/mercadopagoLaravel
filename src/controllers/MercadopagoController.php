@@ -12,9 +12,11 @@ use Illuminate\Routing\Controller;
 
 class MercadopagoController extends Controller {
 
-    public function index()
+    public function verificarPagoyGuardar()
     {
-        return view('MercadoPago::list');
+        $d=\Mercadopago::get_payment($request->input('collection_id'));
+        dd($d);
+        //return view('MercadoPago::list');
     }
 
     public function save(Request $request)
@@ -23,9 +25,5 @@ class MercadopagoController extends Controller {
         return view('MercadoPago::list');
 
     }
-    public function success(Request $request){
-        dd($request->all());
-    }
-
 
 }
