@@ -5,6 +5,7 @@
  * Time: 18:49
  */
 namespace jorgelsaud\Mercadopago;
+use Exception;
 
 
 /**
