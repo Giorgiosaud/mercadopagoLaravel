@@ -13,10 +13,19 @@ class MercadoPagoServiceProvider extends ServiceProvider {
      */
     public function boot()
     {
+        $this->publishes([
+            __DIR__.'/migrations/' => database_path('/migrations')
+        ], 'migrations');
+        $this->publishes([
+            __DIR__.'/config/mercadopago.php' => config_path('mercadopago.php')
+        ], 'config');
         App::bind('mercadopago', function ()
         {
-            return new Mercadopago(env('CLIENT_ID'), env('CLIENT_SECRET'), env('MP_SANDBOXMODE'));
+            return new Mercadopago(config('mercadopago.CLIENT_ID'), config('mercadopago.CLIENT_SECRET'), config('mercadopago.MP_SANDBOXMODE'));
         });
+
+        include __DIR__.'/routes/routes.php';
+
     }
 
     /**
