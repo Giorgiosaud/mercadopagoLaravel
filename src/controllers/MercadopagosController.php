@@ -2,8 +2,10 @@
 
 use Illuminate\Routing\Controller;
 
-class MercadopagoController extends Controller {
-    public function index(){
+class MercadopagosController extends Controller {
+
+    public function index()
+    {
         return 'controller';
     }
 }
