@@ -13,7 +13,7 @@ use Illuminate\Routing\Controller;
 
 class MercadopagoController extends Controller{
     public function index(){
-        return 'hl';
+        return view('MercadoPago::list');
     }
     public function save(){
         return 'hl';

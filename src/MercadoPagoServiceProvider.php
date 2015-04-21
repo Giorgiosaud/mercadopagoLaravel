@@ -19,6 +19,7 @@ class MercadoPagoServiceProvider extends ServiceProvider {
         $this->publishes([
             __DIR__.'/config/mercadopago.php' => config_path('mercadopago.php')
         ], 'config');
+        $this->loadViewsFrom(__DIR__.'/Views', 'MercadoPago');
         App::bind('mercadopago', function ()
         {
             return new Mercadopago(config('mercadopago.CLIENT_ID'), config('mercadopago.CLIENT_SECRET'), config('mercadopago.MP_SANDBOXMODE'));
