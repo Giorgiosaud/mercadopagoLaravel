@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12611d91-87c8-41f2-88ca-9b0977b7f26b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MercadoPagoServiceProvider.php" afterPath="$PROJECT_DIR$/src/MercadoPagoServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/routes.php" afterPath="$PROJECT_DIR$/src/routes/routes.php" />
     </list>
     <ignored path="mercadopagoLaravel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MercadoPagoServiceProvider.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MercadoPagoServiceProvider.php">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/routes/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5465538" vertical-offset="115" max-vertical-offset="1029">
-              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.025392987" vertical-offset="0" max-vertical-offset="827">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -53,10 +53,10 @@
         <option value="$PROJECT_DIR$/src/config/mercadopago.php" />
         <option value="$PROJECT_DIR$/src/controllers/mercadopago.php" />
         <option value="$PROJECT_DIR$/src/Controllers/MercadopagoController.php" />
-        <option value="$PROJECT_DIR$/src/routes/routes.php" />
         <option value="$PROJECT_DIR$/src/Controllers/MercadopagosController.php" />
         <option value="$PROJECT_DIR$/src/Controllers/BaseController.php" />
         <option value="$PROJECT_DIR$/src/MercadoPagoServiceProvider.php" />
+        <option value="$PROJECT_DIR$/src/routes/routes.php" />
       </list>
     </option>
   </component>
@@ -407,14 +407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.025392987" vertical-offset="0" max-vertical-offset="827">
-          <caret line="1" column="82" selection-start-line="1" selection-start-column="82" selection-end-line="1" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/MercadopagosController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10157195" vertical-offset="0" max-vertical-offset="827">
@@ -444,6 +436,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5465538" vertical-offset="115" max-vertical-offset="1029">
           <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding>
+            <marker date="1429598958000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1429598958000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429598958000" expanded="true" signature="-1:-1" placeholder=" Bootstrap the application services. ..." />
+            <marker date="1429598958000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429598958000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429598958000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429598958000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429598958000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429598958000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429598958000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1429598958000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1429598958000" expanded="true" signature="-1:-1" placeholder=" Register the application services. ..." />
+            <marker date="1429598958000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.025392987" vertical-offset="0" max-vertical-offset="827">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
           <folding />
         </state>
       </provider>
