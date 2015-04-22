@@ -12,7 +12,7 @@ use Illuminate\Routing\Controller;
 
 class MercadopagoController extends Controller {
 
-    public function verificarPagoyGuardar()
+    public function verificarPagoyGuardar(Request $request)
     {
         $d=\Mercadopago::get_payment($request->input('collection_id'));
         dd($d);
