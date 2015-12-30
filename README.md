@@ -1,5 +1,7 @@
 # mercadopagoLaravel
-prueba
+Este Paquete esta diseñado para integrar el SDK de Laravel con Mercadopago
+## Para Instalarlo debes ejecutar el siguiente comando
+    composer require jorgelsaud/mercado-pago
 ## change your VerifyCsrfToken to
 	public function handle($request, Closure $next)
     	{
