@@ -14,7 +14,7 @@ class MercadoPagoServiceProviderL4 extends ServiceProvider
     public function boot()
     {
         App::bind('mercadopago', function () {
-            return new Mercadopago(config('services.mercadopago.CLIENT_ID'), config('services.mercadopago.CLIENT_SECRET'), config('services.mercadopago.SANDBOXMODE'));
+            return new Mercadopago(Config::get('services.mercadopago.CLIENT_ID'), Config::get('services.mercadopago.CLIENT_SECRET'), Config::get('services.mercadopago.SANDBOXMODE'));
         });
     }
 
