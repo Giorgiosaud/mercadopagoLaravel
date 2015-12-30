@@ -1,10 +1,10 @@
 {
   "name": "jorgelsaud/mercado-pago",
   "description": "Metodo de Pago Mercadopago Para Laravel",
-  "require": {
-    "laravel/framework": "~4.2"
-  },
   "license": "MIT",
+  "require": {
+        "php": ">=5.4.0",
+    },
   "authors": [
     {
       "name": "Jorge Saud",
