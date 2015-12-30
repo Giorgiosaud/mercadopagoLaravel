@@ -11,3 +11,4 @@ Este Paquete esta diseñado para integrar el SDK de Laravel con Mercadopago
     MERCADOPAGO_CLIENT_SECRET=YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 ### y selecciona el estado de prueba con el sanbox que describe Mercadopago en su SDK con esta linea en el .env
     MERCADOPAGO_MP_SANDBOXMODE=false
+# y ya puedes usar el alias Mercadopago como una clase de tu SDK Mercadopago
