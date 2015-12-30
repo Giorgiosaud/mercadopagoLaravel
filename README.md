@@ -1,5 +1,5 @@
 # mercadopagoLaravel
-    Este Paquete esta diseñado para integrar el SDK de Laravel con Mercadopago
+Este Paquete esta diseñado para integrar el SDK de Laravel con Mercadopago
 ## Para Instalarlo debes ejecutar el siguiente comando
     composer require jorgelsaud/mercado-pago
 ### Luego debes utilizar el ServiceProvider que necesites para laravel 5 y anadirlo a config/app.php en el array de providers añade
