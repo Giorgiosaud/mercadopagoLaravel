@@ -22,7 +22,7 @@ class MercadoPagoServiceProvider extends ServiceProvider {
         $this->loadViewsFrom(__DIR__.'/Views', 'MercadoPago');
         App::bind('mercadopago', function ()
         {
-            return new Mercadopago(config('mercadopago.CLIENT_ID'), config('mercadopago.CLIENT_SECRET'), config('mercadopago.MP_SANDBOXMODE'));
+            return new Mercadopago(config('mercadopago.MERCADOPAGO_CLIENT_ID'), config('mercadopago.MERCADOPAGO_CLIENT_SECRET'), config('mercadopago.MERCADOPAGO_MP_SANDBOXMODE'));
         });
         //$routeConfig = [
         //    'namespace' => 'jorgelsaud\MercadoPago\Controllers',

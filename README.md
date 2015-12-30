@@ -1,26 +1,13 @@
 # mercadopagoLaravel
-Este Paquete esta diseñado para integrar el SDK de Laravel con Mercadopago
+    Este Paquete esta diseñado para integrar el SDK de Laravel con Mercadopago
 ## Para Instalarlo debes ejecutar el siguiente comando
     composer require jorgelsaud/mercado-pago
-## change your VerifyCsrfToken to
-	public function handle($request, Closure $next)
-    	{
-            if ($this->isReading($request) || $this->excludedRoutes($request)|| $this->tokensMatch($request))
-            {
-                return $this->addCookieToResponse($request, $next($request));
-            }
-    
-            throw new TokenMismatchException;
-    	}
-        protected function excludedRoutes($request)
-        {
-            $routes = [
-                'mpPayment',
-            ];
-    
-            foreach($routes as $route)
-                if ($request->is($route))
-                    return true;
-    
-            return false;
-        }
+### Luego debes utilizar el ServiceProvider que necesites para laravel 5 y anadirlo a config/app.php en el array de providers añade
+    jorgelsaud\MercadoPago\MercadoPagoServiceProvider::class
+### y agregar esta linea al array aliases 
+    'Mercadopago' => 'jorgelsaud\Mercadopago\Facades\Mercadopago',
+### A tu archivo .env agrega los datos de mercadopagoLaravel
+    MERCADOPAGO_CLIENT_ID=XXXXXXXXXXXXXX
+    MERCADOPAGO_CLIENT_SECRET=YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+### y selecciona el estado de prueba con el sanbox que describe Mercadopago en su SDK con esta linea en el .env
+    MERCADOPAGO_MP_SANDBOXMODE=false
