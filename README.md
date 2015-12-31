@@ -9,8 +9,10 @@ Este Paquete esta diseñado para integrar el SDK de Laravel con Mercadopago
     jorgelsaud\MercadoPago\MercadoPagoServiceProvider::class
 ````
 ### Si Utilizas Laravel 4.2 usa este provider:
+```php
     'jorgelsaud\MercadoPago\MercadoPagoServiceProviderL4',
-        ## ¡¡no lo he probado en versiones anteriores de Laravel!!
+````
+#### ¡¡no lo he probado en versiones anteriores de Laravel!!
 ### y agregar esta linea al array aliases 
     'Mercadopago' => 'jorgelsaud\Mercadopago\Facades\Mercadopago',
 
