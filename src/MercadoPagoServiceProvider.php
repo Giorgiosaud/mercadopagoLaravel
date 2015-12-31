@@ -1,6 +1,7 @@
 <?php namespace jorgelsaud\MercadoPago;
 
 use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
 use jorgelsaud\Mercadopago\Mercadopago;
 
