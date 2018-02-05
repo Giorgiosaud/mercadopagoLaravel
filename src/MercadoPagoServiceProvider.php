@@ -1,9 +1,9 @@
-<?php namespace jorgelsaud\MercadoPago;
+<?php namespace Giorgiosaud\MercadoPago;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
-use jorgelsaud\Mercadopago\Mercadopago;
+use Giorgiosaud\Mercadopago\Mercadopago;
 
 class MercadoPagoServiceProvider extends ServiceProvider {
 

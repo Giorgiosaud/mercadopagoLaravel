@@ -1,4 +1,4 @@
-<?php namespace jorgelsaud\MercadoPago\Facades;
+<?php namespace Giorgiosaud\MercadoPago\Facades;
 use Illuminate\Support\Facades\Facade;
 
 class Mercadopago extends Facade{

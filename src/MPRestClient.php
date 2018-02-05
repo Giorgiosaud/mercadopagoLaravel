@@ -4,7 +4,7 @@
  * Date: 5/3/15
  * Time: 18:49
  */
-namespace jorgelsaud\Mercadopago;
+namespace Giorgiosaud\Mercadopago;
 use Exception;
 
 

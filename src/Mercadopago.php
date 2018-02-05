@@ -1,4 +1,4 @@
-<?php namespace jorgelsaud\Mercadopago;
+<?php namespace Giorgiosaud\Mercadopago;
 
 /**
  * MercadoPago Integration Library

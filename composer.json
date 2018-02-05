@@ -1,5 +1,5 @@
 {
-  "name": "jorgelsaud/mercado-pago",
+  "name": "Giorgiosaud/mercado-pago",
   "description": "Metodo de Pago Mercadopago Para Laravel",
   "license": "MIT",
   "require": {
@@ -14,7 +14,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "jorgelsaud\\Mercadopago\\": "src"
+      "Giorgiosaud\\Mercadopago\\": "src"
     }
   },
   "minimum-stability": "dev"

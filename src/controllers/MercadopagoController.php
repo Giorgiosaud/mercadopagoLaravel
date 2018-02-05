@@ -4,7 +4,7 @@
  * Date: 21/4/15
  * Time: 7:01
  */
-namespace jorgelsaud\Mercadopago\controllers;
+namespace Giorgiosaud\Mercadopago\controllers;
 
 
 use Illuminate\Http\Request;
@@ -14,7 +14,7 @@ class MercadopagoController extends Controller {
 
     public function verificarPagoyGuardar(Request $request)
     {
-        $d=\Mercadopago::get_payment($request->input('collection_id'));
+        $d= Mercadopago::get_payment($request->input('collection_id'));
         dd($d);
         //return view('MercadoPago::list');
     }
