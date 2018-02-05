@@ -1,5 +1,5 @@
 {
-  "name": "Giorgiosaud/mercado-pago",
+  "name": "giorgiosaud/mercado-pago",
   "description": "Metodo de Pago Mercadopago Para Laravel",
   "license": "MIT",
   "require": {
