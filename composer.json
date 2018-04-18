@@ -4,7 +4,8 @@
   "license": "MIT",
   "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "~5.0"
+        "illuminate/support": "~5.0",
+    "mercadopago/sdk": "dev-master"
     },
   "authors": [
     {
@@ -15,6 +16,16 @@
   "autoload": {
     "psr-4": {
       "Giorgiosaud\\Mercadopago\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Giorgiosaud\\Mercadopago\\MercadoPagoServiceProvider"
+      ],
+      "aliases":{
+        "Mercadopago":"Giorgiosaud\\Mercadopago\\Facades\\Mercadopago"
+      }
     }
   },
   "minimum-stability": "dev"

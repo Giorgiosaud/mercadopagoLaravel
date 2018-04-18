@@ -1,9 +1,9 @@
-<?php namespace Giorgiosaud\MercadoPago;
+<?php namespace Giorgiosaud\Mercadopago;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
-use Giorgiosaud\Mercadopago\Mercadopago;
+use MP;
 
 class MercadoPagoServiceProvider extends ServiceProvider {
 
@@ -23,13 +23,13 @@ class MercadoPagoServiceProvider extends ServiceProvider {
         $this->loadViewsFrom(__DIR__.'/Views', 'MercadoPago');
         App::bind('mercadopago', function ()
         {
-            return new Mercadopago(config('services.mercadopago.CLIENT_ID'), config('services.mercadopago.CLIENT_SECRET'), config('services.mercadopago.SANDBOXMODE'));
+            return new Mercadopago(config('mercadopago.CLIENT_ID'), config('mercadopago.CLIENT_SECRET'), config('mercadopago.SANDBOXMODE'));
         });
+        $this->loadRoutesFrom(__DIR__.'/routes/routes.php');
         //$routeConfig = [
         //    'namespace' => 'jorgelsaud\MercadoPago\Controllers',
         //    'prefix' => $this->app['config']->get('debugbar.route_prefix'),
         //];
-        include __DIR__.'/routes/routes.php';
 
     }
 
